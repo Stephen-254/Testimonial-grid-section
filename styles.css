@@ -5,3 +5,71 @@
   font-weight: 400;
   font-style: normal;
 }
+
+#general-container{
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(2, auto);
+  border: 3px solid black;
+  margin: 9em 5em 0 5em;
+}
+
+.testimony-one{
+  width: inherit;
+  grid-column: 1 / span 2;
+}
+
+.testimony-one figure{
+  display: flex;
+}
+
+.testimony-one figure > img{
+  border-radius: 50%;
+}
+
+.testimony-five aside{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimony-one figure > aside > h1{
+  margin: 0;
+  padding: 0;
+}
+
+.testimony-one div {
+  max-width: 600px;
+}
+
+.testimony-one div  p,
+.testimony-two div p,
+.testimony-three div p,
+.testimony-four div p,
+.testimony-five div p{
+  font-size: 20px;
+}
+
+.testimony-one div h2,
+.testimony-two div h2,
+.testimony-three div h2,
+.testimony-four div h2,
+.testimony-five div h2{
+  font-size: 30px;
+}
+
+.testimony-two h2{
+  width: 300px;
+}
+
+.testimony-four{
+  grid-column-end: 4;
+  grid-column-start: 2;
+}
+
+.testimony-five{
+  grid-column-start: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+

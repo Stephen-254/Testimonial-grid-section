@@ -8,14 +8,13 @@
 
 #general-container{
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(auto-fit, minmax(0, auto));
   grid-template-rows: repeat(2, auto);
-  margin: 9em 5em 0 5em;
-  gap: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 .testimony-one{
-  grid-column: 1 / span 2;
   background-color: hsl(263, 55%, 52%);
   border-radius: 10px;
 }
@@ -26,14 +25,12 @@
 
 #quotation{
   position: absolute;
-  right: 0;
 }
 
 .testimony-five aside{
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 
 .testimony-one figure > aside > h1{
@@ -81,11 +78,20 @@
 .testimony-two{
   background-color: hsl(217, 19%, 35%);
   border-radius: 20px;
+  max-width: 500px;
 }
 
 .testimony-two div{
-  max-width: 400px;
   margin-left: 15px;
+  width: 100%;
+}
+
+.testimony-two article{
+  width: auto;
+}
+
+.testimony-two p{
+  max-width: 400px;
 }
 
 .testimony-two h2{
@@ -95,10 +101,11 @@
 .testimony-three{
   background-color: hsl(0, 0%, 100%);
   border-radius: 20px;
+  grid-row-start: 2;
 }
 
 .testimony-four{
-  grid-column-end: 4;
+  grid-row-start: 2;
   grid-column-start: 2;
   background-color: hsl(219, 29%, 14%);
   border-radius: 20px;

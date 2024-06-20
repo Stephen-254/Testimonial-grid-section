@@ -7,16 +7,17 @@
 }
 
 #general-container{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(0, auto));
-  grid-template-rows: repeat(2, auto);
-  justify-content: center;
-  align-items: center;
-}
+    display: grid;
+    grid-template-columns: 350px  0.5fr 0.3fr 350px;
+    gap: 1rem;
+    align-content: center;
+    justify-content: center;
+  }
 
 .testimony-one{
   background-color: hsl(263, 55%, 52%);
   border-radius: 10px;
+  grid-column: span 2;
 }
 
 .info{
@@ -39,7 +40,6 @@
 }
 
 .testimony-one div {
-  max-width: 700px;
   margin-left: 15px;
 }
 
@@ -68,22 +68,24 @@
 }
 
 .testimony-one figure,
-.testimony-two figure,
 .testimony-three figure,
 .testimony-four figure,
 .testimony-five figure{
   display: flex;
 }
 
+.testimony-two figure{
+  display: flex;
+}
+
 .testimony-two{
   background-color: hsl(217, 19%, 35%);
   border-radius: 20px;
-  max-width: 500px;
 }
 
 .testimony-two div{
   margin-left: 15px;
-  width: 100%;
+  width: auto;
 }
 
 .testimony-two article{
@@ -91,12 +93,14 @@
 }
 
 .testimony-two p{
-  max-width: 400px;
+  width: 400px;
 }
 
 .testimony-two h2{
-  width: 400px;
+  width: 350px;
 }
+
+
 
 .testimony-three{
   background-color: hsl(0, 0%, 100%);
@@ -105,11 +109,9 @@
 }
 
 .testimony-four{
-  grid-row-start: 2;
-  grid-column-start: 2;
   background-color: hsl(219, 29%, 14%);
   border-radius: 20px;
-  
+  grid-column: span 2;
 }
 
 .testimony-five{
@@ -120,7 +122,9 @@
   border-radius: 20px;
 }
 
-.testimony-five div{
-  max-width: 300px;
+.testimony-five p{
+  width: 300px;
 }
+
+
 

@@ -130,8 +130,8 @@ body{
   border-radius: 20px;
 }
 
-.testimony-five p{
-  width: 300px;
+.testimony-five div{
+ margin-left: 20px;
 }
 
 .testimony-five aside{
@@ -245,6 +245,14 @@ body{
 .testimony-four,
 .testimony-five{
   box-shadow: 5px 5px 13px hsl(0, 0%, 81%);
+}
+
+.testimony-one  div,
+.testimony-two div,
+.testimony-three div,
+.testimony-four div,
+.testimony- div{
+  margin-left: 15px;
 }
 
 

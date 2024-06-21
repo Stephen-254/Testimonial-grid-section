@@ -6,6 +6,10 @@
   font-style: normal;
 }
 
+body{
+  background-color:  #FFFF;
+}
+
 #general-container{
     display: grid;
     grid-template-columns: 350px  0.5fr 0.3fr 350px;
@@ -21,30 +25,6 @@
   grid-column: span 2;
 }
 
-.testimony-one aside,
-.testimony-two aside,
-.testimony-three aside,
-.testimony-four aside,
-.testimony-one aside{
-  margin-left: 15px;
-}
-
-
-.testimony-one aside h1,
-.testimony-two aside h1,
-.testimony-four aside h1{
-  font-size: 20px;
-  color: white;
-  font-weight: 600;
-}
-
-.testimony-one aside h4,
-.testimony-two aside h4,
-.testimony-three aside h4,
-.testimony-four aside h4
-{
-  margin-top: 0;
-}
 
 .testimony-one h2{
   color: white;
@@ -81,34 +61,7 @@
   margin-left: 15px;
 }
 
-.testimony-one div  p,
-.testimony-two div p,
-.testimony-three div p,
-.testimony-four div p,
-.testimony-five div p{
-  font-size: 20px;
-}
 
-.testimony-one div h2,
-.testimony-two div h2,
-.testimony-three div h2,
-.testimony-four div h2,
-.testimony-five div h2{
-  font-size: 30px;
-}
-
-
-
-.testimony-one figure,
-.testimony-three figure,
-.testimony-four figure,
-.testimony-five figure{
-  display: flex;
-}
-
-.testimony-two figure{
-  display: flex;
-}
 
 .testimony-two{
   background-color: hsl(217, 19%, 35%);
@@ -183,6 +136,7 @@
 
 .testimony-five aside{
   display: block;
+  margin-left: 15px;
 }
 
 .testimony-five aside h1{
@@ -194,6 +148,106 @@
   margin-top: 0;
   color: hsl(0, 0%, 81%);
 }
+
+.testimony-one aside,
+.testimony-two aside,
+.testimony-three aside,
+.testimony-four aside,
+.testimony-one aside{
+  margin-left: 15px;
+}
+
+
+.testimony-one aside h1,
+.testimony-two aside h1,
+.testimony-four aside h1{
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+}
+
+.testimony-one aside h4,
+.testimony-two aside h4,
+.testimony-three aside h4,
+.testimony-four aside h4
+{
+  margin-top: 0;
+}
+
+
+.testimony-one aside,
+.testimony-two aside,
+.testimony-three aside,
+.testimony-four aside,
+.testimony-one aside{
+  margin-left: 15px;
+}
+
+
+.testimony-one aside h1,
+.testimony-two aside h1,
+.testimony-four aside h1{
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+}
+
+.testimony-one aside h4,
+.testimony-two aside h4,
+.testimony-three aside h4,
+.testimony-four aside h4
+{
+  margin-top: 0;
+}
+
+.testimony-one div  p,
+.testimony-two div p,
+.testimony-three div p,
+.testimony-four div p,
+.testimony-five div p{
+  font-size: 20px;
+}
+
+.testimony-one div h2,
+.testimony-two div h2,
+.testimony-three div h2,
+.testimony-four div h2,
+.testimony-five div h2{
+  font-size: 30px;
+}
+
+.testimony-one figure,
+.testimony-three figure,
+.testimony-four figure,
+.testimony-five figure{
+  display: flex;
+}
+
+.testimony-two figure,
+.testimony-three figure,
+.testimony-four figure,
+.testimony-five figure{
+  display: flex;
+  align-items: center;
+}
+
+.testimony-two img,
+.testimony-three img,
+.testimony-four img,
+.testimony-five img{
+  border-radius: 50%;
+  height: 45px;
+}
+
+.testimony-one,
+.testimony-two,
+.testimony-three,
+.testimony-four,
+.testimony-five{
+  box-shadow: 5px 5px 13px hsl(0, 0%, 81%);
+}
+
+
 
 
 

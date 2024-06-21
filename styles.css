@@ -13,16 +13,22 @@ body{
 #general-container{
     display: grid;
     grid-template-columns: 350px  0.5fr 0.3fr 350px;
-    gap: 1rem;
+    gap: 2rem;
     align-content: center;
     justify-content: center;
-    margin-top: 10em;
+    margin-top: 6em;
   }
 
 .testimony-one{
   background-color: hsl(263, 55%, 52%);
   border-radius: 10px;
   grid-column: span 2;
+}
+
+#profile-one{
+  border-radius: 50%;
+  height: 45px;
+  width: auto;
 }
 
 
@@ -60,8 +66,6 @@ body{
 .testimony-one div {
   margin-left: 15px;
 }
-
-
 
 .testimony-two{
   background-color: hsl(217, 19%, 35%);
@@ -102,6 +106,7 @@ body{
   margin-bottom: 0;
   color: black;
   font-size: 20px;
+  font-weight: 600;
 }
 
 .testimony-three h4{
@@ -142,6 +147,7 @@ body{
 .testimony-five aside h1{
   font-size: 20px;
   margin-bottom: 0;
+  font-weight: 600;
 }
 
 .testimony-five aside h4{
@@ -172,6 +178,7 @@ body{
 .testimony-four aside h4
 {
   margin-top: 0;
+  color: hsl(0, 0%, 81%);
 }
 
 

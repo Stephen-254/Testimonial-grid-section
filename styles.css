@@ -271,6 +271,49 @@ body{
   margin-left: 15px;
 }
 
+@media (min-width: 320px) and (max-width: 800px) {
+  body,html{
+    width: 100%;
+    height: 100%;
+  }
+  
+  #general-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-self: center;
+  }
+
+  .testimony-two{
+    width: 100%;
+  }
+
+  .testimony-two div,
+  .testimony-two div h2,
+  .testimony-two div p{
+    width: auto;
+  }
+
+  .info{
+    position: relative;
+  }
+  
+  #quotation{
+    position: absolute;
+    left: 50%;
+    right: 0;
+  
+    filter: opacity(0.5);
+  }
+}
+
+
+@media (max-width: 1024px) {
+  #general-container {
+    grid-template-columns: auto auto;
+  }
+}
 
 
 

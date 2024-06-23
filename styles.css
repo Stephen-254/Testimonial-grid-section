@@ -82,10 +82,6 @@ body{
   width: auto;
 }
 
-.testimony-two article{
-  width: auto;
-}
-
 .testimony-two p{
   width: 400px;
   color: hsl(0, 0%, 81%);
@@ -266,8 +262,7 @@ body{
 .testimony-one  div,
 .testimony-two div,
 .testimony-three div,
-.testimony-four div,
-.testimony- div{
+.testimony-four div{
   margin-left: 15px;
 }
 
@@ -303,7 +298,6 @@ body{
     position: absolute;
     left: 50%;
     right: 0;
-  
     filter: opacity(0.5);
   }
 }
@@ -314,6 +308,13 @@ body{
     grid-template-columns: auto auto;
   }
 }
+
+
+
+
+
+
+
 
 
 

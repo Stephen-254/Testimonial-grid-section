@@ -278,6 +278,8 @@ body{
     width: 100%;
     align-items: center;
     justify-self: center;
+    margin-top: 0;
+    margin-left: 0;
   }
 
   .testimony-two{
